@@ -1,0 +1,17 @@
+<div class="transaction-item">
+    <div class="date-area field-area">
+        <span>{{transactionTimeString}}</span>
+        <span>{{transactionDateString}}</span>
+    </div>
+
+
+    <div class="description-area field-area">
+        <span class="place">{{item?.place}}</span>
+        <span class="from">{{item?.from}}</span>
+    </div>
+
+
+    <div class="value-area field-area {{color}}">
+        <span>R$ {{item?.value}}</span>
+    </div>
+</div>

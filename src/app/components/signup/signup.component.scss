@@ -1,0 +1,19 @@
+#signup-component {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.form-control {
+    border-radius: 0;
+}
+
+#fullNameInput {
+    border-radius: 5px 5px 0 0 ;
+}
+
+#passwordInput2 {
+    border-radius: 0 0 5px 5px;
+}
