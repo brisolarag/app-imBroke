@@ -1,0 +1,39 @@
+.container {
+    width: 100%;
+    display: flex;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #F5F7F8;
+}
+
+
+.container:only-child {
+    display: flex;
+}
+
+.custom-background-table {
+    background-color: #F5F7F8;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.table-dark {
+    --bs-table-color: #000;
+    --bs-table-bg: #F5F7F8;
+    border: none;
+}
+
+
+
+
+
+.resume-value {
+    font-weight: bolder;
+}
+.entries-value {
+    color: green;
+}
+.outs-value {
+    color: red;
+}
+
