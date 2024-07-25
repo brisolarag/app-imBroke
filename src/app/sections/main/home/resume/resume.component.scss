@@ -4,6 +4,9 @@
     border-radius: 5px;
     padding: 10px;
     background-color: #F5F7F8;
+
+
+    font-size: 1em;
 }
 
 
@@ -37,3 +40,11 @@
     color: red;
 }
 
+
+
+@media (max-width: 550px) {
+    /* … */
+    .container {
+        font-size: 3.5vw;
+    }
+}

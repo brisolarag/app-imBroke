@@ -1,0 +1,23 @@
+/* For webkit based browsers (Chrome, Safari, etc.) */
+/* This affects the entire scrollbar */
+::-webkit-scrollbar {
+    width: 8px; /* width of the scrollbar */
+  }
+  
+  /* This is the 'track' - the area behind the scrollbar */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; /* color of the track */
+    border-radius: 10px; /* rounded corners of the track */
+  }
+  
+  /* This is the 'thumb' - the draggable part of the scrollbar */
+  ::-webkit-scrollbar-thumb {
+    background: #888; /* color of the thumb */
+    border-radius: 10px; /* rounded corners of the thumb */
+  }
+  
+  /* Optional: Hover state of the thumb */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; /* color of the thumb on hover */
+  }
+  
